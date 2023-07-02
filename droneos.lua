@@ -1,5 +1,5 @@
 local modem = component.proxy(component.list("modem")())
-modem.open(1234)
+modem.open(1234) -- change the port if you want to
 
 local droneAddress = component.list("drone")()
 local drone = component.proxy(droneAddress)
